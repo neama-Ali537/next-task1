@@ -7,7 +7,8 @@ import "@fontsource/roboto/700.css";
 
 // import DrawerAppBar from "./(componants)/appbar/page";
 import UserList from "./(componants)/user-list/page";
-import { Box } from "@mui/material";
+
+import CartSection from "./(componants)/cartsSection/page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <DrawerAppBar /> */}
   
         <UserList />
+        <CartSection />
     
     </>
   );
